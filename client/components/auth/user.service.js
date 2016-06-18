@@ -21,7 +21,7 @@ function UserResource($resource) {
   });
 }
 
-angular.module('jonProfileApp.auth')
+angular.module('goodToGoSolutionsApp.auth')
   .factory('User', UserResource);
 
 })();

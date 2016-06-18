@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('jonProfileApp.admin')
+angular.module('goodToGoSolutionsApp.admin')
   .config(function($stateProvider) {
     $stateProvider
       .state('admin', {

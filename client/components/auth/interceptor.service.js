@@ -26,7 +26,7 @@ function authInterceptor($rootScope, $q, $cookies, $injector, Util) {
   };
 }
 
-angular.module('jonProfileApp.auth')
+angular.module('goodToGoSolutionsApp.auth')
   .factory('authInterceptor', authInterceptor);
 
 })();

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('jonProfileApp.admin', [
-  'jonProfileApp.auth',
+angular.module('goodToGoSolutionsApp.admin', [
+  'goodToGoSolutionsApp.auth',
   'ui.router'
 ]);

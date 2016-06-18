@@ -59,7 +59,7 @@ function UtilService($window) {
   return Util;
 }
 
-angular.module('jonProfileApp.util')
+angular.module('goodToGoSolutionsApp.util')
   .factory('Util', UtilService);
 
 })();

@@ -3,7 +3,7 @@
 describe('Controller: OauthButtonsCtrl', function() {
 
   // load the controller's module
-  beforeEach(module('jonProfileApp'));
+  beforeEach(module('goodToGoSolutionsApp'));
 
   var OauthButtonsCtrl, $window;
 

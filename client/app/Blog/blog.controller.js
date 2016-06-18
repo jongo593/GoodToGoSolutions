@@ -2,7 +2,7 @@
 
 (function() {
 
-angular.module('jonProfileApp')
+angular.module('goodToGoSolutionsApp')
   .component('blog', {
     templateUrl: 'app/Blog/blog.html',
     controller: BlogController

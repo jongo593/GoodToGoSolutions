@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('jonProfileApp.auth', [
-  'jonProfileApp.constants',
-  'jonProfileApp.util',
+angular.module('goodToGoSolutionsApp.auth', [
+  'goodToGoSolutionsApp.constants',
+  'goodToGoSolutionsApp.util',
   'ngCookies',
   'ui.router'
 ])

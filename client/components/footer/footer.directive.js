@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('jonProfileApp')
+angular.module('goodToGoSolutionsApp')
   .directive('footer', function() {
     return {
       templateUrl: 'components/footer/footer.html',

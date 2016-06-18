@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('jonProfileApp.util', []);
+angular.module('goodToGoSolutionsApp.util', []);

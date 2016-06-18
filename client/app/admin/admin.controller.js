@@ -14,7 +14,7 @@ class AdminController {
   }
 }
 
-angular.module('jonProfileApp.admin')
+angular.module('goodToGoSolutionsApp.admin')
   .controller('AdminController', AdminController);
 
 })();

@@ -183,7 +183,7 @@ function AuthService($location, $http, $cookies, $q, appConfig, Util, User) {
   return Auth;
 }
 
-angular.module('jonProfileApp.auth')
+angular.module('goodToGoSolutionsApp.auth')
   .factory('Auth', AuthService);
 
 })();

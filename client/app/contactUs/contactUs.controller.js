@@ -2,7 +2,7 @@
 
 (function() {
 
-angular.module('jonProfileApp')
+angular.module('goodToGoSolutionsApp')
   .component('contactus', {
     templateUrl: 'app/contactUs/contactUs.html',
     controller: ContactUsController

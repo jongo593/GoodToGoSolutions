@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('jonProfileApp')
+angular.module('goodToGoSolutionsApp')
   .directive('oauthButtons', function() {
     return {
       templateUrl: 'components/oauth-buttons/oauth-buttons.html',

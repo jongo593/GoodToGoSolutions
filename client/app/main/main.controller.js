@@ -20,7 +20,7 @@
 //
 //}
 
-angular.module('jonProfileApp')
+angular.module('goodToGoSolutionsApp')
   .component('main', {
     templateUrl: 'app/main/main.html',
     controller: MainController

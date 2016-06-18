@@ -29,5 +29,5 @@ class LoginController {
   }
 }
 
-angular.module('jonProfileApp')
+angular.module('goodToGoSolutionsApp')
   .controller('LoginController', LoginController);

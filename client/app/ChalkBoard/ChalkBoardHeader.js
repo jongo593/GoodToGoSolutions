@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('jonProfileApp')
+angular.module('goodToGoSolutionsApp')
   .component('chalkBoardHeader', {
     templateUrl: 'app/ChalkBoard/ChalkBoardHeader.html',
     controller: chalkBoardHeaderController

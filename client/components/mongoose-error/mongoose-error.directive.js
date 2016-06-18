@@ -3,7 +3,7 @@
 /**
  * Removes server error when user updates input
  */
-angular.module('jonProfileApp')
+angular.module('goodToGoSolutionsApp')
   .directive('mongooseError', function() {
     return {
       restrict: 'A',

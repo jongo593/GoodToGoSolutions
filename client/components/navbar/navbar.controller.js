@@ -36,5 +36,5 @@ class NavbarController {
   }
 }
 
-angular.module('jonProfileApp')
+angular.module('goodToGoSolutionsApp')
   .controller('NavbarController', NavbarController);

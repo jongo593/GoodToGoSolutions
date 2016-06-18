@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('jonProfileApp')
+angular.module('goodToGoSolutionsApp')
   .config(function($stateProvider) {
     $stateProvider
       .state('blog', {

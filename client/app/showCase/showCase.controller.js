@@ -2,7 +2,7 @@
 
 (function() {
 
-angular.module('jonProfileApp')
+angular.module('goodToGoSolutionsApp')
   .component('showcase', {
     templateUrl: 'app/showCase/showCase.html',
     controller: ShowCaseController

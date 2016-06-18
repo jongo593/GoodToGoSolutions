@@ -25,5 +25,5 @@ class SettingsController {
   }
 }
 
-angular.module('jonProfileApp')
+angular.module('goodToGoSolutionsApp')
   .controller('SettingsController', SettingsController);

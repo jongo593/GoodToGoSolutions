@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('jonProfileApp')
+angular.module('goodToGoSolutionsApp')
   .directive('navbar', () => ({
     templateUrl: 'components/navbar/navbar.html',
     restrict: 'E',

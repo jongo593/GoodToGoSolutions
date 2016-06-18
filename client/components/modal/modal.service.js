@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('jonProfileApp')
+angular.module('goodToGoSolutionsApp')
   .factory('Modal', function($rootScope, $uibModal) {
     /**
      * Opens a modal

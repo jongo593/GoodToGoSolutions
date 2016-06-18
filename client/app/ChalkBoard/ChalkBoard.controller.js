@@ -127,7 +127,7 @@
 
   }
 
-  angular.module('jonProfileApp')
+  angular.module('goodToGoSolutionsApp')
     .component('chalkBoard', {
       templateUrl: 'app/ChalkBoard/ChalkBoard.html',
       controller: ChalkBoardController
