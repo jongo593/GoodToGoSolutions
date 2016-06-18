@@ -1,0 +1,25 @@
+<!--<div class="bg-main">-->
+  <!--<div class="bg-main-img">-->
+
+  <!--</div>-->
+<!--</div>-->
+<section class="main-container">
+  <div class="jumbotron inner-header navbar-offset">
+    <div class="container text-center">
+      <h1>Showcase</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div ng-repeat="show in showcases track by $index"
+         class="text-center col-lg-4 col-md-6 col-sm-12 col-xs-12">
+      <div class="inner-container">
+        <h3 class="">{{::show.title}}</h3>
+        <div class="polaroid">
+          <a href="{{show.link}}" target="_blank"><img ng-src="{{show.image}}" style="width: 100%; height: auto;" ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

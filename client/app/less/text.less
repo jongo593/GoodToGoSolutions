@@ -1,0 +1,16 @@
+@keyframes type{
+  from{ width: 0;}
+}
+
+p {
+  &.type-animation {
+    font-size: 14px;
+    //margin: 30px;
+    white-space:nowrap;
+    overflow: hidden;
+    width: 100%;
+    animation: type 5s steps(64, end) 1;
+    animation-fill-mode:both;
+
+  }
+}

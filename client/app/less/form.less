@@ -1,0 +1,17 @@
+form {
+  &.ng-submitted {
+    &input,textarea.ng-invalid {
+      border-color: @brand-danger;
+    }
+    &textarea,input.ng-invalid {
+      border-color: @brand-danger;
+    }
+
+    &input,textarea.ng-valid {
+      border-color: @brand-success;
+    }
+    &textarea,input.ng-valid {
+      border-color: @brand-success;
+    }
+  }
+}
