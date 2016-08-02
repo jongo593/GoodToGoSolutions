@@ -1,5 +1,5 @@
 (function(angular, undefined) {
-  angular.module("goodToGoSolutionsApp.constants", [])
+  angular.module("jonProfileApp.constants", [])
 
 .constant("appConfig", {
 	"userRoles": [
