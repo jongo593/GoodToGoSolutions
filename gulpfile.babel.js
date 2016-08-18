@@ -519,7 +519,7 @@ gulp.task('build:client', ['transpile:client', 'styles', 'html', 'constant', 'bu
 gulp.task('html', function() {
     return gulp.src(`${clientPath}/{app,components}/**/*.html`)
         .pipe(plugins.angularTemplatecache({
-            module: 'jonProfileApp'
+            module: 'goodToGoSolutionsApp'
         }))
         .pipe(gulp.dest('.tmp'));
 });
@@ -527,7 +527,7 @@ gulp.task('html', function() {
 gulp.task('constant', function() {
   let sharedConfig = require(`./${serverPath}/config/environment/shared`);
   return plugins.ngConstant({
-    name: 'jonProfileApp.constants',
+    name: 'goodToGoSolutionsApp.constants',
     deps: [],
     wrap: true,
     stream: true,
@@ -557,11 +557,12 @@ gulp.task('build:images', () => {
 
 gulp.task('copy:extras', () => {
     return gulp.src([
-        `${clientPath}/favicon.ico`,
+        `${clientPath}/favicon*`,
+        `${clientPath}/apple-icon*`,
+        `${clientPath}/andriod-icon*`,
+        `${clientPath}/ms-icon*`,
         `${clientPath}/robots.txt`,
         `${clientPath}/.htaccess`,
-        `${clientPath}/favicon.png`,
-        `${clientPath}/apple-touch-icon-precomposed.png`
     ], { dot: true })
         .pipe(gulp.dest(`${paths.dist}/${clientPath}`));
 });

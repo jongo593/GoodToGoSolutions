@@ -22,4 +22,10 @@ angular.module('goodToGoSolutionsApp', [
 
   .constant('APP_CONFIG', {
     serverUrl: 'localhost:3000'
+  })
+
+  .run(function ($rootScope) {
+    $rootScope.$on('$stateChangeSuccess', () => {
+      window.scrollTo(0,0);
+    });
   });
